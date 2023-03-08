@@ -5,4 +5,3 @@ class bili_sql_op:
         self.mysqlop = sql_op('127.0.0.1','root','fengqiji2001','biyesheji')
     def insertVideo(self,video):
         self.mysqlop.insert('video',video)
-
