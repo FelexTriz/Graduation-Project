@@ -11,7 +11,7 @@ for video in remen_data['data']['list']:
     video_bvid = video['bvid']
     video_tid = video['tid']
     video_owner = video['owner']
-    print(video_tid)
+    print(video_title)
 # remen2= remen_data['data']['list'][0]['title']
 # print(remen2)
 
